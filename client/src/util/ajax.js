@@ -19,7 +19,8 @@ instance.interceptors.request.use(function (config) {
 instance.interceptors.response.use(function (response) {
   // Do something with response data
   if(response.data.code === 0){
-    Toast(response.data.msg)
+    Toast(response.data.message)
+    return {};
   }else{
     return response.data;
   }
