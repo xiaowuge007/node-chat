@@ -73,10 +73,10 @@
         position: fixed;
         top: 50px;
         right: 50px;
-        box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 15px #ccc;
         border: 1px solid $tintGray;
         padding: 5px 15px;
         background-color: #fff;
-        color: #333;
+        color: #000;
     }
 </style>

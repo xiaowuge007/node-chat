@@ -27,7 +27,7 @@ function tapEvent(fn) {
   return function(e) {
     if(e.type === 'touchstart'){
       time = setTimeout(()=>{
-        fn();
+        fn(e);
       },500)
     }else if(e.type === 'touchmove'){
       clearTimeout(time)
