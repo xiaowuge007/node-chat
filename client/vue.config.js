@@ -3,6 +3,7 @@ function resolve(dir) {
   return path.join(__dirname, dir);
 }
 module.exports = {
+  publicPath: './',
   lintOnSave: process.env.NODE_ENV !== "production",
   css: {
     loaderOptions: {
